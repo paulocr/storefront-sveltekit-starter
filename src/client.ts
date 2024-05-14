@@ -9,7 +9,7 @@ async function fetchQuery({
   variables = {},
 }: RequestHandlerArgs) {
   const url =
-    import.meta.env.VITE_GRAPHQL_ENDPOINT ||
+    import.meta.env.VITE_GRAPHQL_API ||
     'https://readonlydemo.vendure.io/shop-api'
 
   const headers = {}
